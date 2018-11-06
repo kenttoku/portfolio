@@ -1,11 +1,13 @@
 import Link from 'next/link';
+import Meta from './Meta';
 
 const linkStyle = {
   marginRight: 15
 };
 
 const Header = () => (
-  <div>
+  <nav>
+    <Meta />
     <Link href="/">
       <a style={linkStyle}>Home</a>
     </Link>
@@ -18,7 +20,7 @@ const Header = () => (
     <Link href="/projects">
       <a style={linkStyle}>Projects</a>
     </Link>
-  </div>
+  </nav>
 );
 
 export default Header;
