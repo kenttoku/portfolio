@@ -3,19 +3,15 @@ import styled from 'styled-components';
 import Meta from './Meta';
 
 const Nav = styled.nav`
-
+  display: flex;
+  justify-content: space-evenly
+  font-size: 18px;
+  padding-bottom: 10px;
 `;
 
 const NavItem = styled.a`
-  font-style: normal;
-  font-family: Helvetica, Arial;
-  font-weight: 400;
-  font-size: 1.2rem;
-  line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-transform: uppercase;
-  padding: .41667em .66667em;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
 `;
 
 const Header = () => (
