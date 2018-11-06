@@ -1,3 +1,7 @@
+import Layout from '../components/Layout.js';
+
 export default () => (
-  <h1>Portfolio</h1>
+  <Layout>
+    <p>Index</p>
+  </Layout>
 );
